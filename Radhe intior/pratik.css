@@ -1,0 +1,820 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+/* headerstart */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: ghostwhite;
+    z-index: 100;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.navbar a {
+    padding: 25px 40px 25px 40px;
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+.navbar a:hover {
+    background-color: #ffc107;
+    color: white;
+
+}
+
+.moso {
+    color: #ffc107;
+    font-family: Arial Rounded MT;
+    font-size: 30px;
+}
+
+.interrad {
+    color: red;
+    font-family: Arial Rounded MT;
+}
+
+.iorgreen {
+    color: green;
+    font-family: Arial Rounded MT;
+}
+
+/* header and */
+
+/* homepage start */
+.homepage {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    background: url("living\ room.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.homepage .content {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.walcomehome {
+    color: green;
+    font-family: Arial Rounded MT;
+    font-size: 18px;
+    display: block;
+    line-height: 50px;
+}
+
+.homepage .text {
+    text-align: center;
+}
+
+.homepage .text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.horeform {
+    background-color: #fff;
+}
+
+.horeform {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.maininputsec {
+    background-color: #fff;
+    border: 2px solid #e9eaeb;
+    border-radius: .25rem;
+    /* margin-bottom: 24px; */
+    padding-left: 20px;
+}
+
+.text-input {
+    background-color: #fbfafa;
+    box-shadow: none;
+    border: 0;
+    color: #717275;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding: 15px 12px 15px 12px;
+    outline: none;
+    color: rgb(134, 132, 132);
+}
+
+.btn {
+    padding: 10px 12px 10px 10px;
+    background: #f65129;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.3s;
+    margin-bottom: 0;
+    border-radius: .25rem;
+}
+
+/* homepage and */
+
+/* About start */
+.divsecand {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-section {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.abcontant {
+    max-width: 50%;
+}
+
+.abcontant h4 {
+    color: green;
+    font-size: 15px;
+
+}
+
+.abcontant h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #6c757d;
+    font-weight: 600;
+
+}
+
+.abcontant h1 {
+    font-size: 35px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: #6c757d;
+}
+
+.abcontant {
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+    max-width: 420px;
+    box-sizing: border-box;
+    display: block;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+.abcontant p {
+    font-size: 19px;
+    color: #999;
+    line-height: 1.6;
+}
+
+.images img {
+    box-sizing: border-box;
+    display: block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+.seacandimg img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.rowalign-items-center {
+    display: flex;
+}
+
+.img-sec {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* about and */
+
+
+/* about section css start*/
+.about-sec {
+    background-image: url(https://www.tooplate.com/templates/2133_moso_interior/images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.about-sec>div {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.info-card {
+    background: #ffd74f;
+    background: #e9eaeb;
+    border-top: 20px solid #f65129;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 50px;
+    max-width: 40%;
+}
+
+.info-card>div>h2 {
+    font-size: 48px;
+    margin: 10px 0 20px 0;
+}
+
+.info-card-detail>p {
+    font-size: 25px;
+}
+
+.info-card-detail {
+    display: flex;
+    gap: 15px;
+}
+
+.info-card-detail>div>p {
+    margin-bottom: 20px;
+}
+
+/* about section css and */
+
+
+/* shop stat */
+.about-sectionfor {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.exteradivone {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.threediv>h2 {
+    color: #f65129;
+    font-size: 35px;
+    font-family: Lucida Sans;
+}
+
+.strongfearst {
+    padding-bottom: 9PX;
+}
+
+.imgdiv-sec {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.imgdiv-sec>div {
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.first-card {
+    background-image: url(div3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.like-save {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.like-save>div {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like-save>div:nth-child(1) {
+    padding: 18px 25px;
+}
+
+.like-save>div:nth-child(2) {
+    padding: 8px 10px;
+    color: red;
+    font-size: 15px;
+
+}
+
+.fa-regular {
+    cursor: pointer;
+}
+
+.fa-regular:hover {
+    color: red;
+}
+
+.rotate-sec {
+    position: relative;
+}
+
+.rotate-sec-block {
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    position: absolute;
+    top: -40%;
+    right: 48%;
+    transform: translate(50%, 50%) rotate(45deg);
+}
+
+.secand-card {
+    background-image: url(div4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.fer-sec-card-name {
+    display: flex;
+    flex-direction: column;
+}
+
+/* three card */
+.card-section-int {
+    display: flex;
+    gap: 20px;
+}
+
+.card-section-int>div {
+    width: 35%;
+}
+
+.three-card {
+    background-image: url(living.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.fore-card {
+    background-image: url(chef\ kitchan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.five-card {
+    background-image: url(childrens.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+    border-radius: 10px;
+}
+
+.card-name h4 {
+    font-size: 20px;
+    font-family: "Adobe Gothic Std";
+    padding: 10px 10px 0px;
+    margin-bottom: 10px;
+
+}
+
+.numberroos {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.numberroos a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: 0.3s all;
+}
+
+.step:hover {
+    background-color: #f65129;
+}
+
+
+/* reviews card start */
+.reviewscard {
+    background-color: rgb(249, 249, 249);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.divfirstcard {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.h4hadding {
+    font-size: 40px;
+    font-family: "Adobe Gothic Std";
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.reviews {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pcard {
+    padding: 50px 40px;
+}
+
+.card h4 {
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    background: linear-gradient(180deg, rgb(243, 70, 0) 0%, rgba(255, 190, 140, 1) 100%);
+    padding: 10px 35px;
+    border-radius: 0 0 10px 10px
+}
+
+.card-footer::before {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #f65129;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    position: absolute;
+    top: -20px;
+    left: 36px;
+}
+
+.star-display {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.imgdiv-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pragraf-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked {
+    color: rgb(255, 238, 0);
+}
+
+.card-footer>p {
+    color: white;
+    font-size: 20px;
+}
+
+/* reviews card and */
+
+
+/* facebook i start */
+.fas-log-1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.facebook-style {
+    background-color: rgb(24, 119, 242);
+    border: 2px solid transparent;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+}
+
+.facebook-style:hover {
+    background: transparent;
+    border-color: rgb(24, 119, 242);
+    color: rgb(24, 119, 242);
+}
+
+.i-facebook {
+    color: rgb(113, 114, 117);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.fa-brands {
+    padding-right: 3px;
+}
+
+
+
+/* contact start */
+.contact-section {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.custom-form {
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.roos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col-lg {
+    width: 45%;
+}
+
+.input-name {
+    background-color: #ffffff;
+    border: 2px solid #e9eaeb;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+.input-name label{
+    padding-left: 20px;
+    width: 50%;
+}
+.input-group {
+    background-color: #ffffff;
+    border: 2px solid #e9eaeb;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.input-group label {
+    padding-left: 20px;
+    width: 30%;
+    
+}
+.form-control-input {
+    background-color: white;
+    box-shadow: none;
+    border: 0;
+    color: #717275;
+    padding: 20px;
+    outline: none;
+    width: 70%;
+}
+
+.input-message {
+    background-color: #ffffff;
+    border: 2px solid #e9eaeb;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.input-message label {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+.form-control {
+    background-color: white;
+    box-shadow: none;
+    border: 0;
+    color: #717275;
+    padding: 20px;
+    outline: none;
+    width: 50%;
+}
+
+
+
+.form-control-textarea {
+    background-color: white;
+    box-shadow: none;
+    border: 0;
+    color: #717275;
+    padding: 12px;
+    outline: none;
+    width: 100%;
+    /* position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%; */
+}
+
+/* .input-group>.form-control{
+    position: relative;
+    flex: 1 1 auto;
+    width: 40%;
+    min-width: 0
+} */
+.mandiv-custom {
+    width: 50%;
+}
+
+
+
+
+/* contact and */
+
+
+@media screen and (max-width:820px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .horeform {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .horeform {
+        width: 90%;
+    }
+
+    .rowalign-items-center,
+    .img-sec,
+    .imgdiv-sec {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-sec {
+        padding: 80px 20px;
+    }
+
+    .info-card {
+        max-width: 100%;
+    }
+
+    .about-section {
+        padding: 50px 0px;
+    }
+
+    .about-sectionfor {
+        padding: 80px 20px;
+    }
+
+    .imgdiv-sec {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .imgdiv-sec>div {
+        width: 100%;
+    }
+
+    .first-card {
+        max-width: 100%;
+    }
+
+    .card-section-int>div {
+        width: 100%;
+    }
+
+    .card-section-int {
+        flex-direction: column;
+    }
+
+    .numberroos a {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .reviews {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .reviews .card {
+        width: 100%;
+    }
+
+}
